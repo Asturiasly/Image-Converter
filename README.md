@@ -15,3 +15,9 @@ cd build-debug
 cmake .. -DCMAKE_BUILD_TYPE=Debug
 cmake --build .
 ```
+# Работа программы
+Поддерживает форматы .BMP, .JPEG, .PPM
+
+```
+./bin/imgconv <file-convert-from> <file-convert-to>
+```
